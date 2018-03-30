@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 Halia
-=======
 Hodovitskyi Nazarii
 Rostik
->>>>>>> afb1088bb76cfa44cd26354c8aef5842b1051522
+Rostik
+Hodovitskyi Nazarii
+
