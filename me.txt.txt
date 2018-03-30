@@ -15,5 +15,10 @@ Hodovitskyi Nazarii
 Dmyterko Taras
 Dmyterko Taras
 Rostik
+romaniv
 Hodovitskyi Nazarii
+<<<<<<< HEAD
 HEAD
+=======
+
+>>>>>>> 03e8c4e5271fccabe626a8329f1b3d26d72a71ec
