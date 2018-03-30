@@ -1,28 +1,19 @@
-<<<<<<< HEAD
 Mary Lopatynska
-=======
 Rostik 
-HEAD
 Rostik
-HEAD
 Rostik
-HEAD
 Rostik
-HEAD
 Rostik
 Hodovitskyi Nazarii
-HEAD
-
->>>>>>> 5b047b95dd2eefd93496a78717d98ecd0e164cae
 Halia
 Hodovitskyi Nazarii
-
 Roman Vavryk
 Mary Lopatynska
 Hodovitskyi Nazarii
 Dmyterko Taras
 Rostik
+Roman Vavryk
 romaniv
 Hodovitskyi Nazarii
- HEAD
+
 
