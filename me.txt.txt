@@ -1,13 +1,16 @@
 Rostik
-<<<<<<< HEAD
+HEAD
+Rostik
+HEAD
 Rostik
 Hodovitskyi Nazarii
-=======
-<<<<<<< HEAD
+HEAD
+Mary Lopatynska
+Rostik
+Hodovitskyi Nazarii
+
 Dmyterko Taras
-=======
 Dmyterko Taras
 Rostik
 Hodovitskyi Nazarii
->>>>>>> 04327f311865039293bbc7f004ec18fea2d67b5b
->>>>>>> 59261ef406e42987a89aafb28ecc5cf3101a63a8
+HEAD
