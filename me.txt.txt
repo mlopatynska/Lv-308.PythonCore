@@ -1,3 +1,5 @@
+Rostik 
+HEAD
 Rostik
 HEAD
 Rostik
@@ -7,18 +9,16 @@ HEAD
 Rostik
 Hodovitskyi Nazarii
 HEAD
+
+Halia
+Hodovitskyi Nazarii
+
 Roman Vavryk
-Rostik
 Mary Lopatynska
-Rostik
 Hodovitskyi Nazarii
-Dmyterko Taras
 Dmyterko Taras
 Rostik
 romaniv
 Hodovitskyi Nazarii
-<<<<<<< HEAD
-HEAD
-=======
+ HEAD
 
->>>>>>> 03e8c4e5271fccabe626a8329f1b3d26d72a71ec
