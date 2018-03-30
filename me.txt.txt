@@ -1,2 +1,7 @@
+<<<<<<< HEAD
+Dmyterko Taras
+=======
+Dmyterko Taras
 Rostik
 Hodovitskyi Nazarii
+>>>>>>> 04327f311865039293bbc7f004ec18fea2d67b5b
