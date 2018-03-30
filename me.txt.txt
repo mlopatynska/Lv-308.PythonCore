@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 Valerii Skoryk
+=======
+Roman Vavryk
+Rostik
+Mary Lopatynska
+Rostik
+Hodovitskyi Nazarii
+Dmyterko Taras
+Dmyterko Taras
+>>>>>>> a97a947aec749baa321d53efbb813c392de7d542
 Rostik
 Hodovitskyi Nazarii
