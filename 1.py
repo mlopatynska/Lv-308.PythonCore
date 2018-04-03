@@ -1,0 +1,5 @@
+name = raw_input("Your name?\n")
+age = int(raw_input("Your age?\n"))
+salary = raw_input("Your salary?\n")
+print  ("Hi {0) you are   years old. Your salary is %.3f $" % (name,age, salary))
+print  ("%s is %d years old. Your salary is %.3f $" % .format(name,age, salary))
