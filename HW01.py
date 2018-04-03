@@ -1,0 +1,11 @@
+name = input('Whay is your name? ')
+age = input('How old are you? ')
+city = input('Where do you live? ')
+tel = input('Enter your tel number ')
+mail = input('Enter your e-mail ')
+
+print("Hello " + name)
+print("Your age is " + age)
+print("You live in " + city)
+print("This is your tel number " + tel)
+print("This is your e-mail " + mail)
