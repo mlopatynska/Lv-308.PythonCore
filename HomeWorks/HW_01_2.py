@@ -1,6 +1,12 @@
 # encoding=utf8
-import sys, numexpr
+
+import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
-equation = numexpr.evaluate(raw_input("Type your equation "))
-print(equation)
+try:
+    import numexpr
+    equation = numexpr.evaluate(raw_input("Type your equation "))
+    print(equation)
+except ImportError:
+    equation = eval(raw_input("Type your equation "))
+    print(equation)
