@@ -1,4 +1,3 @@
-import re
 
 
 python_philosophy = """
@@ -25,9 +24,9 @@ Namespaces are one honking great idea -- let's do more of those!
 print python_philosophy
 # I'd typing a upper method,in this way did all text with big characters.
 
-better = len(re.findall('better'.upper(), python_philosophy))
-never = len(re.findall('never'.upper(), python_philosophy))
-is_char = len(re.findall('is'.upper(), python_philosophy))
+better = python_philosophy.count('better'.upper())
+never = python_philosophy.count('never'.upper())
+is_char = python_philosophy.count('is'.upper())
 print """
 The \"better\" word are meeting: {} times
 \"never\": {} times
