@@ -4,6 +4,7 @@ x = float(raw_input("Variable x is equal to...\n"))
 y = float(raw_input("Variable y is equal to...\n"))
 z = float(raw_input("Variable z is equal to...\n"))
 
+
 fun_a = (sqrt(fabs(x - 1)) - (fabs(y))**(1.0/3)) / (1 + x**2/2 + y**2/4)
 fun_b = x * (atan(z) + exp(-(x + 3)))
 print("A)  a = {}; b = {}.".format(fun_a, fun_b))

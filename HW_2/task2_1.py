@@ -19,12 +19,17 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!"""
 
+print("The Zen of Python... \n"
+      " {} \n"
+      "\n "
+      "...or maybe... \n "
+      "{} \n "
+      "\n"
+      "The word 'better' appears here {} times. \n"
+      "The word 'never' appears here {} times. \n"
+      "The word 'is' appears here {} times.".format(philo.upper(),
+                                                    philo.replace("i","&"),
+                                                    philo.count("better"),
+                                                    philo.count("never"),
+                                                    philo.count("is")))
 
-print("The Zen of Python..." + philo.upper() +"\n")
-
-print("...or maybe...")
-print(philo.replace("i","&") +"\n")
-
-print("The word 'better' appears here {} times.".format(philo.count("better")))
-print("The word 'never' appears here {} times.".format(philo.count("never")))
-print("The word 'is' appears here {} times.".format(philo.count("is")))
