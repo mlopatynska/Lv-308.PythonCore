@@ -42,7 +42,7 @@ one = int(numbers[0])
 two = int(numbers[1])
 three = int(numbers[2])
 four = int(numbers[3])
-print(one + two + three + four)
+print(one * two * three * four)
 print(numbers[::-1])
 print(sorted(numbers))
 a, b = 0, 1
