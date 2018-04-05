@@ -47,6 +47,7 @@ print(philosophy.replace("i", "&"))
 numbers = str(raw_input())
 print(num_couter(numbers))
 print(numbers[::-1])
+print(sorted(numbers))
 
 a, b = 0, 1
 print(a, b)
