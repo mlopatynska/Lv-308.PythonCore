@@ -37,7 +37,7 @@ print(philosophy.count("is"))
 print(philosophy.upper())
 print(philosophy.replace("i", "&"))
 
-numbers = raw_input()
+numbers = raw_input("Print four numbers: ")
 one = int(numbers[0])
 two = int(numbers[1])
 three = int(numbers[2])
