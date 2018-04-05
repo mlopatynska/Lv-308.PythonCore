@@ -19,7 +19,7 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!\n"""
 
-print ( \
+print (
     "Python phylosophy in uppercase:\n{0}\n"
     "'&' instead of 'i':\n{1}\n"
     "Words 'better', 'never' "
@@ -30,3 +30,5 @@ print ( \
                         zen_of_python.count('better'),
                         zen_of_python.count('never'),
                         zen_of_python.count('is')))
+
+
