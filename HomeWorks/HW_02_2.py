@@ -1,9 +1,6 @@
 # encoding=utf8
-import sys, re
 
-reload(sys)
-sys.setdefaultencoding('utf8')
-s = """Gur Mra bs Clguba, ol Gvz Crgref
+s = u"""Gur Mra bs Clguba, ol Gvz Crgref
 Ornhgvshy vf orggre guna htyl.
 Rkcyvpvg vf orggre guna vzcyvpvg.
 Fvzcyr vf orggre guna pbzcyrk.
@@ -32,30 +29,22 @@ for c in (65, 97):
 philosophy = ("".join([d.get(c, c) for c in s]))
 
 
-list = re.split(" ", philosophy.lower().replace("." or "," or "\n", ""))
-def word_couter(word, text):
-    cout = 0
-    for i in text:
-        if word == i:
-            cout += 1
-    return cout
-def num_couter(num):
-    sum = 0
-    for i in num:
-        sum += int(i)
-    return sum
 
-print(word_couter("better", list))
-print(word_couter("never", list))
-print(word_couter("is", list))
+
+print(philosophy.count("better"))
+print(philosophy.count("never"))
+print(philosophy.count("is"))
 print(philosophy.upper())
 print(philosophy.replace("i", "&"))
 
-numbers = str(raw_input())
-print(num_couter(numbers))
+numbers = raw_input()
+one = int(numbers[0])
+two = int(numbers[1])
+three = int(numbers[2])
+four = int(numbers[3])
+print(one + two + three + four)
 print(numbers[::-1])
 print(sorted(numbers))
-
 a, b = 0, 1
 print(a, b)
 a, b = b, a
