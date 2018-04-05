@@ -1,6 +1,4 @@
-# encoding=utf8
-import sys
-reload(sys)
-sys.setdefaultencoding('utf8')
-equation = eval(raw_input("Type your equation "))
+equation = raw_input("Type your equation ")
+equation = eval(equation.replace('"' and "'", ""))
 print(equation)
+
