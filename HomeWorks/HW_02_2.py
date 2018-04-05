@@ -37,7 +37,7 @@ def num_couter(num):
     for i in num:
         sum += int(i)
     return sum
-print(list)
+
 print(word_couter("better", list))
 print(word_couter("never", list))
 print(word_couter("is", list))
