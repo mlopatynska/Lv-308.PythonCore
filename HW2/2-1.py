@@ -1,15 +1,8 @@
 """Import mathematical function
 from module math"""
-from math import fabs
-from math import exp
-from math import atan
-from math import tan
-from math import sin
-from math import cos
-from math import factorial
-from math import sqrt
-from math import pi
-from math import log
+from math import fabs,exp, atan,tan,sin,cos,\
+                 factorial,sqrt,log,pi
+
 
 #Assign values to variables
 x = input("Enter value x: ")
