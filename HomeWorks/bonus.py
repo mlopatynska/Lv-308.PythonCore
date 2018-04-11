@@ -1,8 +1,9 @@
-import copy, random, re
+
 test_list = str(input("Print 3 str: "))
 
 # making full new copy of list
-new_list = copy.deepcopy(test_list)
+
+new_list = list((test_list))
 print("First list id",id(test_list))
 print(test_list)
 print("Second list id",id(new_list))
