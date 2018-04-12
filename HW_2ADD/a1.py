@@ -25,3 +25,12 @@ A_3 = X[:xlen_3]
 B_3 = X[xlen_3:2*xlen_3]
 C_3 = X[2*xlen_3:]
 print("II way. The initial list was {}. It is divided by about a third: {}, {}, {}.".format(X, A_3, B_3, C_3))
+
+#III way. You mean this???
+
+
+XX = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+AA, BB, CC = XX.pop(0), XX.pop(0), XX
+
+print("III way. The initial list was {}. It is divided in such way: {}, {}, {}.".format(X, AA, BB, CC))
