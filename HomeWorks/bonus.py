@@ -3,10 +3,10 @@ test_list = str(input("Print 3 str: "))
 
 # making full new copy of list
 
-new_list = list((test_list))
-print("First list id",id(test_list))
+new_list = list(test_list)
+print("First list id", id(test_list))
 print(test_list)
-print("Second list id",id(new_list))
+print("Second list id", id(new_list))
 print(new_list)
 one, two, three = test_list[0], test_list[1], test_list[2]
 print(one, two, three)
@@ -31,4 +31,6 @@ is_pandigit = str(input("Write yor digits: "))
 print(len(str(1234567890)) == len(list(set(is_pandigit).intersection(set(str(1234567890))))))
 first_number = int(input("Print your First number: "))
 shift = int(input("Print your shift number: "))
-print(str((first_number+shift-5))[len(str(shift))-1])
+print(len(str(shift))-1)
+print(str(first_number+shift-5))
+print(str((first_number+shift-5) / (int("1" + "0" * (len(str(shift))-1))))[-1])
