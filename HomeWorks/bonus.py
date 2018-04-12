@@ -29,6 +29,6 @@ print((rad-1)**2 + rad**2)
 is_pandigit = str(input("Write yor digits: "))
 
 print(len(str(1234567890)) == len(list(set(is_pandigit).intersection(set(str(1234567890))))))
-shift = int(input("Write your n number: "))
-circle_list = [5, 6, 7, 8, 9, 0, 1, 2, 3, 4]
-print(circle_list[shift])
+first_number = int(input("Print your First number: "))
+shift = int(input("Print your shift number: "))
+print(str((first_number+shift-5))[len(str(shift))-1])
