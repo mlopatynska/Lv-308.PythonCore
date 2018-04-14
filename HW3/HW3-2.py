@@ -1,3 +1,4 @@
+#not completed
 #check if datetime is valid
 
 from calendar import monthrange
@@ -10,7 +11,3 @@ if M in monthrange(year, month) is True:
 else:
     print("{}-{}-{} is incorrect format of date".format(Y, M, D))
 print('End') """
-
-import datetime,calendar
-today = datetime.datetime
-print(today)
