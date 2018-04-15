@@ -1,13 +1,25 @@
-#not completed
 #check if datetime is valid
-
 from calendar import monthrange
-from datetime import date
-Y = int(input("Enter year:\n"))
-M = int(input("Enter month:\n"))
-D = input("Enter day: \n")
-if M in monthrange(year, month) is True:
-       print("{}-{}-{} is correct".format(Y, M, D))
+import datetime
+
+
+year = int(input("Enter year: "))
+month = int(input("Enter month: "))
+day = int(input("Enter day: "))
+
+if month > 12 or day > monthrange(year, month)[1]:
+    print('\n'f'{year}-{month}-{day} is incorrect date')
 else:
-    print("{}-{}-{} is incorrect format of date".format(Y, M, D))
-print('End') """
+    date = datetime.date(year, month, day)
+    print(f'{date} is correct date!')
+
+
+
+
+
+
+
+
+
+
+
