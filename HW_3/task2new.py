@@ -10,7 +10,7 @@ if not(isinstance(year, int)) or year <= 0 or year >= 9999:
 elif not isinstance(month, int) or month <= 0 or month >= 13:
     print("Month must be in 1..12")
 else:
-    if not isinstance(day, int) or day <= 0 or day > monthrange(year,month)[1]:
+    if not isinstance(day, int) or day <= 0 or day > monthrange(year, month)[1]:
         print("What a strange day?!")
     else:
         Your_date = datetime(year, month, day)
