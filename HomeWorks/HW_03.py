@@ -1,3 +1,4 @@
+from calendar import monthrange
 year = int(input("Print your year: "))
 if ((year / 4).is_integer() and year / 100 != 0) or (year / 400).is_integer():
     print("It's a leap year!")
@@ -7,7 +8,9 @@ else:
 
 day, month, year = int(input("\nDay: ")), int(input("Month: ")),\
                    int(input("Year: "))
-if (day >= 1 and day <= 31) and (month >= 1 and month <= 12) and (year >= 0):
+
+mthrange = monthrange(year, month)
+if (day >= 1 and day in range(mthrange[0], mthrange[1])) and (month >= 1 and month <= 12) and (year >= 0):
     print("True" + "\n" + str(day) + "." + str(month) + "." + str(year))
 else:
     print("Err")
@@ -36,6 +39,8 @@ if sidea >= 1 and sideb >= 1 and sidec >= 1:
     print("True\nP = {}\nS = {}".format(P, sqrt(P * (P-sidea) * (P-sideb) * (P-sidec))))
 else:
     print("Err\n")
+
+
 day_list = list(range(1, 366))
 day = int(input("\nPrint day(1 - 365)"))
 print(bool(day in day_list[0::7]))
