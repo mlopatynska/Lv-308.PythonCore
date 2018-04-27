@@ -27,5 +27,4 @@ def bubble_sort(list, reverse = False):
 
 
 
-massive = [1, 2, 4, 121, 22, 23239, 2823, 9384, 11]
-print(len(bubble_sort(massive)))
+
