@@ -1,9 +1,36 @@
-def compare_words(first_word, *words):
+
+
+
+def appender():
+    #For ex1
+    import random
+    list_var = []
+    for i in range(30):
+        list_var.append(random.randint(-100, 100))
+    return list_var
+
+#ex1
+a, b, c, x, y, z = appender(), appender(), appender(), int(input()), int(input()), int(input())
+def math_ref(supernum, secondnum):
+    result = 0
+    for i in range(30):
+        result += supernum[i] * secondnum **(30-i)
+    return result
+
+ex_1_res = math_ref(a, x)**2 -math_ref(b, y) / math_ref(c, x + z)
+print(ex_1_res)
+#ex2
+def loop_factorial(x):
+    if x is 0:
+        return 1
+    else:
+        return x * loop_factorial(x-1)
+
+#ex3
+def Perestanovka(first_word, *words):
     for i in words:
         if sorted(i) == sorted(first_word):
             print(i)
-
-
 
 def bubble_sort(list, reverse = False):
     '''
