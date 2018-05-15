@@ -36,33 +36,10 @@ pygame.init()
 
 screen_size = (1680, 1050)
 screen = pygame.display.set_mode(screen_size, pygame.FULLSCREEN)
-
 pygame.display.set_caption("Crazy shapes")
-
+clock = pygame.time.Clock()
 done = False
 
-clock = pygame.time.Clock()
-
-# rectan = Rectangle(random.randrange(0, 800),
-#                    random.randrange(0, 600),
-#                    random.randrange(20, 70),
-#                    random.randrange(20, 70),
-#                    random.randrange(0, 255),
-#                    random.randrange(0, 255),
-#                    random.randrange(0, 255),
-#                    random.randrange(-3, 3),
-#                    random.randrange(-3, 3))
-#
-#
-# ellipse = Ellipse(random.randrange(0, 800),
-#                   random.randrange(0, 600),
-#                   random.randrange(20, 70),
-#                   random.randrange(20, 70),
-#                   random.randrange(0, 255),
-#                   random.randrange(0, 255),
-#                   random.randrange(0, 255),
-#                   random.randrange(-3, 3),
-#                   random.randrange(-3, 3))
 
 my_list = []
 for i in range(800):
