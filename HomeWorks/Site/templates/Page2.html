@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Сторінка знайомств</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body background="https://upload.wikimedia.org/wikipedia/commons/9/92/Elegant_Background-14.jpg">
+    <div class="container">
+      <h1></h1>
+      <br>
+      <form action="" method="post">
+        <input type="text" placeholder="First name" name="name" value="{{request.form.name}}">
+         <input type="text" placeholder="Second name" name="second_name" value="{{request.form.second_name}}">
+          <input type="number" placeholder="Age" name="age" value="{{request.form.age}}">
+          <input type="text" placeholder="City" name="city" value="{{request.form.city}}">
+          <div><input class="btn btn-default" type="submit" value="Login"></div>
+
+      </form>
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+  </body>
+</html>

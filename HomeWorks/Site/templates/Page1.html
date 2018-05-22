@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HelloPage</title>
+<style>
+    div {background-color: lightblue}
+    a {background-color: orange}
+</style>
+    <script>
+        function hello(){
+            var page_name = prompt('Your name');
+            if (page_name != "") {
+                document.getElementById("myname").innerHTML=page_name;
+                document.getElementById("id_href").href={{url_for('page_2', name=page_name)}}
+            }
+    }
+
+    </script>
+</head>
+
+<body background="https://upload.wikimedia.org/wikipedia/commons/9/92/Elegant_Background-14.jpg">
+        <div>Привіт, <span id="myname">незнайомцю!</span></div>
+        <div>Мене звати <i>Роман</i>. Я б хотів познайомитись з тобою, але поки що не знаю про тебе нічого :(</div>
+        <div>Перейди на наступну сторінку щоб додатись у друзі і побачити моїх друзів</div>
+        <div><a id="id_href" href="/login">Наступна сторінка</a></div>
+
+</body>
+</html>
